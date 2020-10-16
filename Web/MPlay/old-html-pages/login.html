@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Увайсцi - MPlay</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <style>
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="headerLogoContainer">
+            <a href="index.html">
+                <img class="headerLogo" src="images/logo.png" alt="mainLogo" />
+            </a>
+        </div>
+        <div class="searchPlace">            
+            <form class="seachForm">
+                <img class="searchLogo" src="images/searchLogo.png" alt="searchLogo" />
+                <input class="searchInput" type="search" placeholder="Пошук" autocomplete="on"/>
+                <input class="searchButton" type="button" value="Go! " />
+            </form>
+        </div>
+        <div class="loginPage">
+            <a href="user.html">
+                <img class="userLogo" src="images/user.png" alt="userLogo" />
+            </a>
+            <a class="loginPageLink" href="login.html">
+                Уваход/Рэгістрацыя
+            </a>
+        </div>        
+    </header>
+
+    <main>
+        <div class="loginMain loginBorders">
+            <form>
+                <fieldset class="loginFieldset loginBorders">
+                    <legend class="legendText">Уваход</legend>
+                    <label class="labelText loginLabelText"for="login">Логiн:</label>
+                    <input class="InputField" type="text" name="login" id="login" autocomplete="off" required/><br>
+                    <label class="labelText" for="password">Пароль:</label>
+                    <input class="InputField" type="password" name="password" id="password" autocomplete="off" required/><br>
+                    <input class="loginPageButton" type="button" value="Увайсцi">
+                    <input class="loginPageButton" style="float: right;" type="button" value="Зарэгiстравацца" onClick="window.location='registration.html'">
+                </fieldset>
+            </form> 
+        </div>
+    </main>
+</body>

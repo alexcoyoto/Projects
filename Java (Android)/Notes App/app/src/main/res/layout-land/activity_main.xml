@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:orientation="vertical">
+
+        <SearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="@dimen/my_margin"
+            android:background="@color/colorAccent"
+            android:queryHint="Search"
+            android:textColor="@color/textColor"/>
+    </LinearLayout>
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@color/colorAccent">
+
+
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="2"
+            android:id="@+id/gridview"
+            android:divider="@color/black"
+            android:dividerHeight="10dp"
+            android:layout_margin="@dimen/my_margin"
+            android:background="@color/colorAccent"/>
+
+
+        <Button
+            android:id="@+id/addNote"
+            style="@style/MainButtonStyle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="end|bottom"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="onClick"
+            android:text="+"
+            android:background="@drawable/oval_button"
+            android:textColor="@color/textColor"
+            />
+        <Button
+            android:id="@+id/sortType"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|end"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="100dp"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:onClick="onClick"
+            android:text="Sort"
+            android:background="@drawable/oval_button"
+            android:textColor="@color/textColor" />
+
+        <Button
+            android:id="@+id/reversedSort"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|end"
+            android:layout_weight="1"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="13pt"
+            android:textStyle="bold"
+            android:onClick="onClick"
+            android:text="@string/reverse"
+            android:background="@drawable/oval_button"
+            android:textColor="@color/textColor" />
+
+
+    </FrameLayout>
+</LinearLayout>

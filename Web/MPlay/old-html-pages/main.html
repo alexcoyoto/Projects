@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Галоўная - MPlay</title>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <script type="module" src="main.js"></script>
+        <style>
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="headerLogoContainer">
+                <a href="index.html">
+                    <img class="headerLogo" src="images/logo.png" alt="mainLogo" />
+                </a>
+            </div>
+            <div class="searchPlace">            
+                <form class="seachForm">
+                    <img class="searchLogo" src="images/searchLogo.png" alt="searchLogo" />
+                    <input class="searchInput" type="search" placeholder="Пошук" autocomplete="on"/>
+                    <input class="searchButton" type="button" value="Go! " />
+                </form>
+            </div>
+            <div class="addTrackButtonContainer">
+                <input class="addTrackButton" type="button" value="Add track">
+            </div>
+            <div class="loginPage">
+                <a href="user.html">
+                    <img class="userLogo" src="images/user.png" alt="userLogo" />
+                </a>
+                <a class="loginPageLink" href="login.html">
+                    Уваход/Рэгістрацыя
+                </a>
+            </div>        
+        </header>
+
+        <main>
+            <div class="indexPageMain">
+                <div class="leftSide">
+                <div class="mainHeadline">
+                    <div class="musicSectionContainer">
+                       <h3 class="musicSectionName">
+                            Зараз слухаюць
+                       </h3>
+                        <!--<img class="musicSectionImage" src="images/top.png" alt="top.png"/>-->
+                    </div>
+                </div>
+                <div class="musicListContainer">
+                    <ul class="musicList">
+                        <li class="track">
+                            <div class="trackContainer">
+                                <img class="albumImage" src="images/albums/1.jpg">
+                                <div class="trackName">
+                                    Hunger of the Pine
+                                </div>
+                                <div class="trackButtons">
+                                    <form>
+                                        <input class="trackButton" type="image" src="images/delete.png">
+                                        <input class="trackButton" type="image" src="images/like.png">
+                                    </form>
+                                </div>
+                            </div>
+                        </li>
+        
+                    </ul>
+                </div>
+                </div>
+                <div class="centerSide">
+                <div class="mainHeadline">
+                    <div class="musicSectionContainer">
+                        <h3 class="musicSectionName">
+                            Рэкамендацыі
+                            <!--<img class="musicSectionImage" src="images/recom.png" alt="recom.png" />-->
+                        </h3>
+                    </div>
+                </div>
+                <div class="musicListContainer">
+                <ul class="musicList">
+                    <li class="track">
+                        <div class="trackContainer">
+                            <img class="albumImage" src="images/albums/4.jpg">
+                            <div class="trackName">
+                                Mein herz brennt
+                            </div>
+                            <div class="trackButtons">
+                                <form>
+                                    <input class="trackButton" type="image" src="images/delete.png">
+                                    <input class="trackButton" type="image" src="images/like.png">
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+                </div>
+                </div>
+                <div class="rightSide">
+                <div class="mainHeadline">
+                    <div class="musicSectionContainer">
+                        <h3 class="musicSectionName">
+                            Навіны
+                            <!--<img class="musicSectionImage" src="images/new.png" alt="new.png"/>-->
+                        </h3>
+                    </div>
+                </div>
+                <div class="musicListContainer">
+                <ul class="musicList">
+                    <li class="track">
+                        <div class="trackContainer">
+                            <img class="albumImage" src="images/albums/5.jpg">
+                            <div class="trackName">
+                                Californication
+                            </div>
+                            <div class="trackButtons">
+                                <form>
+                                    <input class="trackButton" type="image" src="images/delete.png">
+                                    <input class="trackButton" type="image" src="images/like.png">
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

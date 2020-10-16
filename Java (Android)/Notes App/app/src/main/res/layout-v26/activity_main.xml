@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:orientation="vertical">
+
+        <SearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="@dimen/my_margin"
+            android:autofillHints="SSS"
+            android:background="@color/colorAccent"
+            android:queryHint="Search"
+            android:textColor="@color/textColor"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@color/colorAccent">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listview"
+            style="@style/CustomListView"
+            android:divider="@color/colorAccent"
+            android:dividerHeight="10dp"
+            android:layout_margin="@dimen/my_margin"
+            />
+
+        <Button
+            android:id="@+id/addNote"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|end"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="12pt"
+            android:onClick="onClick"
+            android:text="+"
+            android:background="@drawable/oval_button"
+            android:textColor="@color/textColor" />
+
+        <Button
+            android:id="@+id/sortType"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|end"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="100dp"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:onClick="onClick"
+            android:text="Sort"
+            android:background="@drawable/oval_button"
+            android:textColor="@color/textColor" />
+
+        <Button
+            android:id="@+id/reversedSort"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|left"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="13pt"
+            android:textStyle="bold"
+            android:onClick="onClick"
+            android:text="@string/reverse"
+            android:background="@drawable/oval_button"
+            android:textColor="@color/textColor" />
+
+    </FrameLayout>
+</LinearLayout>

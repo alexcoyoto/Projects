@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyRSSReader</string>
+    <string name="load_button">Загрузіць</string>
+    <string name="edit_text">Увядзіце спасылку…</string>
+    <string name="debug_button">Адладка</string>
+    <string name="clear_cache_button_text">Ачысціць кэш</string>
+</resources>

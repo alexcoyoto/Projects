@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20pt"
+        android:gravity="bottom|right"
+        android:inputType="none" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.1">
+
+        <fragment
+            android:id="@+id/specificFragment"
+            android:name="com.example.myapplication.Fragments.SpecificButtons"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:layout="@layout/specific_buttons" />
+
+        <fragment
+            android:id="@+id/basicFragment"
+            android:name="com.example.myapplication.Fragments.BasicButtons"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:layout="@layout/basic_buttons" />
+
+    </LinearLayout>
+</LinearLayout>

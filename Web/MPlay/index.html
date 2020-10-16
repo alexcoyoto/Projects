@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>MPlay</title>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <script type="module" src="index.js"></script>
+        <script src="./views/main.js"></script>
+        <style>
+        </style>
+    </head>
+    <body>
+        <header>
+        </header>
+        <main>
+        </main>
+        <footer>
+        </footer>
+        
+
+<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-storage.js"></script>
+
+<script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyBFh12tjEy8Bi0xnSQ_xQK5MC5bwmjAhGs",
+      authDomain: "mplayer-coyoto.firebaseapp.com",
+      databaseURL: "https://mplayer-coyoto.firebaseio.com",
+      storageBucket: "mplayer-coyoto.appspot.com",
+      projectId: "mplayer-coyoto"
+    };
+    firebase.initializeApp(firebaseConfig);
+
+    const auth = firebase.auth();
+    const db = firebase.database();
+    const storage = firebase.app().storage("gs://mplayer-coyoto.appspot.com");
+  </script>
+
+    </body>
+</html>

@@ -1,0 +1,2 @@
+{'_id': 1, 'name': 'Admin', 'password': '7549687s', 'email': 'mr_snegur@hotmail.com', 'books': '', 'coins': 9999, 'image': 'admin.png'}
+{'_id': 2, 'name': 'Tester', 'password': '123', 'email': 'test@mail.com', 'books': '', 'coins': 0, 'image': 'man.png'}

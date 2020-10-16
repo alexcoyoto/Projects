@@ -1,0 +1,71 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myrssreader"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:6:5-75
+12-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:6:22-73
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:7:5-78
+13-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:7:22-76
+14
+15    <application
+15-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:9:5-30:19
+16        android:allowBackup="true"
+16-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\Alexander\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:15:9-40
+25        <activity android:name="com.example.myrssreader.BrowserModel.WebViewBrowserModel" />
+25-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:16:9-79
+25-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:16:19-67
+26        <activity android:name="com.example.myrssreader.MainActivity" >
+26-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:17:9-23:20
+26-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:17:19-47
+27            <intent-filter>
+27-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:19:17-69
+28-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:21:17-77
+30-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <receiver android:name="com.example.myrssreader.ConnectionReceiver" >
+34-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:25:9-29:20
+34-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:25:19-53
+35            <intent-filter>
+35-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:26:13-28:29
+36                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+36-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:27:17-79
+36-->E:\Studies\5\PPO done\4\MyRSSReader2\app\src\main\AndroidManifest.xml:27:25-76
+37            </intent-filter>
+38        </receiver>
+39    </application>
+40
+41</manifest>

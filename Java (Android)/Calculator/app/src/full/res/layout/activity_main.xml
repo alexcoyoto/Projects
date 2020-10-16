@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:textSize="20pt"
+        android:gravity="bottom|right"
+        android:inputType="none" />
+
+    <Button
+        style="@style/GreenButtons"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:onClick="switchMode"
+        android:text="@string/switch_fragment" />
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="horizontal">
+
+        <fragment
+            android:id="@+id/basicFragment"
+            android:name="com.example.myapplication.Fragments.BasicButtons"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:layout="@layout/basic_buttons" />
+
+        <FrameLayout
+            android:id="@+id/placeholder"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0" />
+    </LinearLayout>
+
+</LinearLayout>

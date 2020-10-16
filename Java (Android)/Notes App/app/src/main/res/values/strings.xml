@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="tag">Увядзіце назву тэга</string>
+    <string name="note_title">Загаловак</string>
+    <string name="note_content">Змесціва нататкі...</string>
+    <string name="reverse">"\u21c5"</string>
+</resources>

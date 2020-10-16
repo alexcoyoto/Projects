@@ -1,0 +1,14 @@
+C:\Users\Alexander\source\repos\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+C:\Users\Alexander\source\repos\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+C:\Users\Alexander\source\repos\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+C:\Users\Alexander\source\repos\ConsoleApp3\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\Alexander\source\repos\ConsoleApp3\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+C:\Users\Alexander\source\repos\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
+C:\Users\Alexander\source\repos\MY APP\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+C:\Users\Alexander\source\repos\MY APP\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+C:\Users\Alexander\source\repos\MY APP\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+C:\Users\Alexander\source\repos\MY APP\ConsoleApp3\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\Alexander\source\repos\MY APP\ConsoleApp3\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\MY APP\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+C:\Users\Alexander\source\repos\MY APP\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
